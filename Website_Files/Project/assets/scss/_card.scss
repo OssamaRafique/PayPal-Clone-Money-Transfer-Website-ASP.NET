@@ -1,0 +1,160 @@
+/* =============   Card	  ============= */
+
+.card {
+  margin-bottom: 30px;
+  -webkit-box-shadow: $card-shadow;
+  box-shadow: $card-shadow;
+  border: 0px;
+  border-radius: 3px;
+}
+
+.card-heading {
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  padding: 0.9rem 1.25rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  font-size: 18px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom: 1px solid #eef5f9;
+  > p {
+    font-size: 13px;
+    text-transform: none;
+    font-weight: normal;
+    padding: 0px;
+    margin: 0px;
+  }
+}
+
+.card-group .card {
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  border-radius: 0px;
+}
+
+.card-block {
+  position: relative;
+  padding:20px;
+}
+
+.card-search {
+  position: relative;
+  width: 170px;
+  float: right;
+  .form-control {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -ms-box-shadow: none;
+    box-shadow: none;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    border-radius: 2px;
+    font-size: 12px;
+    font-weight: 300;
+  }
+  span {
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    border: 0px;
+    font-size: 11px;
+  }
+}
+
+.card-footer {
+  padding: 10px 15px;
+  background: #fff;
+}
+
+.card-dropdown {
+	right: 0;
+	left: auto;
+}
+
+.card-default {
+  background-color: transparent;
+  border-bottom: 0px;
+  color: #455a64;
+  font-weight: 500;
+  a.collapsed {
+    color: #666;
+  }
+}
+
+.card-primary {
+  border-color: $primary;
+  color: #fff;
+  background-color: $primary;
+  border-color: $primary;
+  a {
+    color: #fff;
+  }
+}
+
+.card-success {
+  border-color: $success;
+  color: #fff;
+  background-color: $success;
+  border-color: $success;
+  a {
+    color: #fff;
+  }
+}
+
+.card-info {
+  border-color: $info;
+  color: #fff;
+  background-color: $info;
+  border-color: $info;
+  a {
+    color: #fff;
+  }
+}
+
+.card-warning {
+  border-color: $warning;
+  color: #fff;
+  background-color: $warning;
+  border-color: $warning;
+  a {
+    color: #fff;
+  }
+}
+
+.card-danger {
+  border-color: $danger;
+  color: #fff;
+  background-color: $danger;
+  border-color: $danger;
+  a {
+    color: #fff;
+  }
+}
+
+.card-indigo {
+  border-color: $indigo;
+  color: #fff;
+  background-color: $indigo;
+  border-color: $indigo;
+  a {
+    color: #fff;
+  }
+}
+
+.card-teal {
+  border-color: $teal;
+  color: #fff;
+  background-color: $teal;
+  border-color: $teal;
+  a {
+    color: #fff;
+  }
+}

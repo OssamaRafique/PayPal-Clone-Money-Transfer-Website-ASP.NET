@@ -1,0 +1,35 @@
+/* =============   Page Header   ============= */
+
+.page-header {
+  margin: 0px;
+  margin-left: -30px;
+  margin-right: -30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 15px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #fff;
+  h2 {
+    margin: 2px 0;
+    font-size: 24px;
+  }
+  .breadcrumb {
+    margin: 0px;
+    background: transparent;
+    padding: 0;
+    text-transform: capitalize;
+    > .active {
+      color: #455a64;
+    }
+  }
+}
+
+.colored .breadcrumb-item {
+  color: $white;
+  a {
+    color: $white;
+  }
+  + .breadcrumb-item:before {
+    color: $white !important;
+  }
+}

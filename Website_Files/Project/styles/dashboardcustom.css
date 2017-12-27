@@ -1,0 +1,12 @@
+﻿@import url(https://fonts.googleapis.com/css?family=Roboto:300); .lblerror {
+    font-family: "Roboto", sans-serif !important;
+    background: #ff3131;
+    padding: 14px;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    min-width: 100%;
+    font-size: 18px;
+    display: table;
+}
+

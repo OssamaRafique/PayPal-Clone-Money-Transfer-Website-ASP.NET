@@ -1,0 +1,184 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="main.master.cs" Inherits="Project.main" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Pay World</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/plugins/owl/owl.carousel.css">
+    <link rel="stylesheet" href="assets/plugins/owl/owl.theme.css">
+    <link rel="stylesheet" href="assets/plugins/owl/owl.transitions.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="assets/plugins/aos-master/aos.css"/>
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+
+        <div>
+            <div class="se-pre-con"></div>
+
+<!-- NAVIGATION -->
+<nav class="navbar navbar-default">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header logoo">
+            <button id="tog-btn" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#home-section"><img class="img-responsive" src="assets/images/logo.png"></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right hidden-xs hidden-sm">
+                <li class="gold"><a href="login.aspx"><button ID="btnlogin" runat="server" OnClick="location.href = '/login.aspx';" class="  btn btn-gradient outline-button" style="margin-bottom: 0px;"><div style="background: #1C589B;transition: all 0.3s;">Login</div></button></a></li>
+            </ul>
+            <ul id="navigation" class="nav navbar-nav navbar-right">
+                <li><a class="active" href="default">Home</a></li>
+                <li><a class="active" href="about">About</a></li>
+                <li><a class="active" href="terms">Terms & Condition</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right visible-xs visible-sm">
+                <li class="gold" style="border-top: 1px solid rgba(255,255,255,0.1)"><a href="login.aspx">Login</a></li>
+            </ul>
+        </div>
+
+    </div>
+</nav>
+<!-- NAVIGATION -->
+
+
+<!-- HEADER -->
+<section id="home-section">
+    <div style="width: 100%; height: 100%;" data-vide-bg="mp4: assets/video/suit.mp4, webm: assets/video/suit.webm, ogv: assets/video/suit.ogv" data-vide-options="loop: loop, muted: true, position: 0% 0%">
+        <div class="gradient50 sectionP60 header-pad">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="row">
+                            <div class="col-md-12 col-sm-12 col-xs-12 header-text sectionP60">
+                            	<br><br>
+                               <center> <h1 class="rL white">Pay World Will Make It happen</h1>
+                                <p class="rL white">Send money to your friends and family Fast and Free.<br> Fast Transactions with our secure server.</p><br>
+                                <a href="register.aspx" class="animated bounce btn btn-gradient">Register Now</a></center>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- HEADER -->
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+            <!-- Footer Section -->
+<footer id="contact-section" class="sectionP60 dark-bg">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="col-md-7 col-sm-7 col-xs-12 pull-right resCont">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="heading-text">
+                            <span class="gold-gradient-color">Get in touch.</span>
+                        </div>
+                    </div>
+                    <form action="#">
+                        <div class="col-md-12 col-sm-12 col-xs-12 p0">
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <div class="input-box">
+                                    <input placeholder="Full Name" type="text" required>
+                                    <span style="position: absolute"><i class="fa fa-user"></i></span>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <div class="input-box">
+                                    <input placeholder="Email Address" type="text" required>
+                                    <span style="position: absolute"><i class="fa fa-envelope-o"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-xs-12 p0">
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <div class="input-box">
+                                    <input placeholder="Mobile or Telephone" type="text" required>
+                                    <span style="position: absolute"><i class="fa fa-phone"></i></span>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <div class="input-box">
+                                    <input placeholder="Subject" type="text" required>
+                                    <span style="position: absolute"><i class="fa fa-puzzle-piece"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-xs-12 p0">
+                            <div class="col-md-12 col-sm-12 col-xs-12">
+                                <div class="input-box">
+                                    <textarea placeholder="Type your message here..." name="" id="" cols="30" rows="5"></textarea>
+                                    <span style="position: absolute"><i class="fa fa-comments"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btn btn-gradient outline-button pull-right mtb20"><div style="background: #0C1222;transition: all 0.3s">Send <tag class="hidden-xs">Message</tag></div></button>
+                    </form>
+                </div>
+                <div class="col-md-4 col-sm-5 col-xs-12 border-right resCompany">
+                    <div class="company-desc logoo">
+                        <a href="#home-section"><img class="img-responsive" src="assets/images/logo.png"/></a>
+                        <p class="light2 rl">Our aim is to provide you a fast and easy money transfer platform.</p>
+                    </div>
+                    <div class="meet-us">
+                        <p class="gold rL">MEET US</p>
+                        <span class="light2 oR">You can meet the team at National University of Modern Languages.</span>
+                    </div>
+                    <div class="cont-us">
+                        <p class="gold rL">Contact Us</p>
+                        <div><a class="light2 g" href=""><span class="oR">Landline : +92 21 978 8228</span></a></div>
+                        <div><a class="light2 g" href=""><span class="oR">Mobile : +92 3014443377</span></a></div>
+                        <div><a class="light2 g" href=""><span class="oR">Email : contact@ossamarafique.com</span></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Footer Section -->
+
+<!-- Copyright Section -->
+<section class="sectionP20" style="background: #0b101d;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="col-md-12">
+                    <p class="light oR m0" style="opacity: .65">&copy; Copyright 2017, all rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Copyright Section -->
+<!-- Scroll Back Top Button -->
+<button onclick="topFunction()" id="myBtn" class="btn btn-gradient"><i class="visible-xs fa fa-arrow-up"></i><tag class="hidden-xs">Back To Top</tag></button>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="assets/js/bootstrap.js"></script>
+<script type="text/javascript" src="assets/plugins/niceScroll/niceScroll.min.js"></script>
+<script type="text/javascript" src="assets/plugins/videoBg/jquery.vide.js"></script>
+<script type="text/javascript" src="assets/plugins/owl/owl.carousel.js"></script>
+<script type="text/javascript" src="assets/plugins/numScroll/numscroller-1.0.js"></script>
+<script src="assets/plugins/aos-master/aos.js"></script>
+<script type="text/javascript" src="assets/js/common.js"></script>
+        </div>
+    </form>
+</body>
+</html>
